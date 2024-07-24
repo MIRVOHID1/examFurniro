@@ -1,0 +1,7 @@
+.headerShop {
+    background-image: url('../../../assets/banners/ShopBanner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 416px;
+}
