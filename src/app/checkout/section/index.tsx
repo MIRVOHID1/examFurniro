@@ -14,12 +14,9 @@ const Index = () => {
 
     return (
         <div className="container mx-auto">
-            <div className="mb-[100px] mt-[100px]">
-                <h1 className="text-center font-semibold text-[36px]">Get In Touch With Us</h1>
-                <p className="text-center font-normal text-[16px] w-[646px] mx-auto text-[#9F9F9F]">For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
-            </div>
             <div className="flex justify-evenly">
-                <div className="card w-1/2 h-[100%] rounded-[29px] px-[100px]"  >
+                <div className="card w-1/2 h-[100%] rounded-[29px] px-[100px] mt-[80px]"  >
+                    <h1 className="text-[36px] font-medium leading-[43.2px] mb-[60px]">Billing details</h1>
                     <form onSubmit={handleSubmit(onSubmit)}>
                         <div className="flex flex-col gap-4">
                             <div className="flex gap-6">
@@ -110,7 +107,7 @@ const Index = () => {
                                     name="email"
                                     control={control}
                                     rules={{ required: "Email is required" }}
-                                    render={({ field }) => <Input className="mb-[20px]" style={{ width: '100%', height: '56px' }} {...field} status={errors.email ? "error" : ""} />}
+                                    render={({ field }) => <Input className="mb-[50px]" style={{ width: '100%', height: '56px' }} {...field} status={errors.email ? "error" : ""} />}
                                 />
                             </div>
                             <div>
@@ -124,7 +121,7 @@ const Index = () => {
                         </div>
                     </form>
                 </div>
-                <div className="w-1/2 px-[100px]">
+                <div className="w-1/2 px-[80px] mt-[130px]">
                     <div className="max-w-md">
                         <div className="mb-6">
                             <div className="flex justify-between mb-4">
@@ -162,12 +159,12 @@ const Index = () => {
                                 </label>
                             </div>
                         </div>
-
+ 
                         <p className="text-sm text-gray-600 mb-6">
                             Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <a href="#" className="underline">privacy policy</a>.
                         </p>
 
-                        <button className="w-full py-2 bg-black text-white rounded-lg hover:bg-gray-800">
+                        <button className="w-full py-2 border border-black py-4 w-[318px] flex justify-center mx-auto text-black rounded-lg">
                             Place order
                         </button>
                     </div>
