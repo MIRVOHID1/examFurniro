@@ -1,5 +1,3 @@
-// import Image from "next/image";
-// import Banner from "../../../assets/banners/HomeSection3Banner.png"
 import "./index.css"
 
 const index = () => {

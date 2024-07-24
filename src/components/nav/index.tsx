@@ -26,13 +26,13 @@ const Nav: React.FC<NavProps> = ({ toggleCart }) => {
           <Link className="px-[16px] text-[#000] hover:text-[#000] transition-all duration-50 hover:scale-105 font-medium" href="/contact">Contact</Link>
         </div>
         <div className="flex gap-[50px] items-center">
-          <a href="https://www.instagram.com/seedra_seeds/">
+          <a href="/">
             <Image src={account} alt="instagram" width={24} height={24} />
           </a>
-          <a href="https://www.facebook.com/seedra.seeds">
+          <a href="/">
             <Image src={search} alt="facebook" width={24} height={24} />
           </a>
-          <Link href="/like">
+          <Link href="/">
             <Image src={like} alt="lupa" width={24} height={24} />
           </Link>
           <button onClick={toggleCart}>

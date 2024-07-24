@@ -96,7 +96,7 @@ const Cart: React.FC = () => {
             <span className="font-medium text-[16px]">Total</span>
             <span className="text-[#B88E2F] font-medium text-[20px]">Rs. {getTotal().toFixed(2)}</span>
           </div>
-          <Link href="/checkout" className="mt-4 px-4 py-2 text-black w-full font-normal text-[20px] border border-black rounded-[15px] w-[222px] h-[60px] ">Check Out</Link>
+          <Link href="/checkout" className="mt-6 flex justify-center mx-auto items-center px-8 py-2 text-black w-full font-normal text-[20px] border border-black rounded-[10px] w-[200px] h-[60px] ">Check Out</Link>
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Logo from "../../../assets/icons/Meubel House_Logo.svg"
+import Link from "next/link";
 import "./index.css";
 
 const HeaderShop = () => {
@@ -8,7 +9,7 @@ const HeaderShop = () => {
             <div className="items-center pt-[110px]">
                 <Image className="mx-auto" src={Logo} alt="Shop" width={100} height={100} />
                 <p className="text-[48px] mt-[0px] pt-[0px] font-medium text-center items-center">Shop</p>
-                <p className="text-[16px] font-medium text-center items-center">Home {'>'} Shop</p>
+                <p className="text-[16px] font-medium text-center items-center"><Link href={"/"}>Home</Link> {'>'} Shop</p>
             </div>
         </div>
     );

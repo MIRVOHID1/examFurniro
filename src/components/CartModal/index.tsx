@@ -103,7 +103,7 @@ const CartModal: React.FC<CartModalProps> = ({ toggleCart }) => {
           <div className='flex justify-between p-6 gap-[10px]'>
             <Link className='border border-[#000] rounded-[50px] px-[23px] py-[60x]' href="/cart" onClick={toggleCart}>Cart</Link>
             <Link className='border border-[#000] rounded-[50px] px-[23px] py-[60x]' href="/checkout" onClick={toggleCart}>Checkout</Link>
-            <Link className='border border-[#000] rounded-[50px] px-[23px] py-[60x]' href="/comparison" onClick={toggleCart}>Comparison</Link>
+            <Link className='border border-[#000] rounded-[50px] px-[23px] py-[60x]' href="/compare" onClick={toggleCart}>Comparison</Link>
           </div>
         </div>
       </div>
